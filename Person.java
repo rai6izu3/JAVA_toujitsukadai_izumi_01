@@ -1,0 +1,1 @@
+public class Person {    private String name;    private String graduate;    public Person(String name, String graduate) {        this.name = name;        this.graduate = graduate;    }    public void selfIntroduction(){        System.out.println("私の名前は" + this.name + "です。" + this.graduate + "出身です。");    }}
